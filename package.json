@@ -1,0 +1,71 @@
+{
+  "_from": "vue-imgs-view@0.1.8",
+  "_id": "vue-imgs-view@0.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-CIexRMBu2m3R9xKbh6eZO4LkF9WUiaMrgZeCpuzEZmIJzula61HSboKQQQEmRj5ThbTp/u2SFvrR/GSmuwWBDw==",
+  "_location": "/vue-imgs-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vue-imgs-view@0.1.8",
+    "name": "vue-imgs-view",
+    "escapedName": "vue-imgs-view",
+    "rawSpec": "0.1.8",
+    "saveSpec": null,
+    "fetchSpec": "0.1.8"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-imgs-view/-/vue-imgs-view-0.1.8.tgz",
+  "_shasum": "d6eb944e68a09bfa3c27d452f2d6a428cba8db5b",
+  "_spec": "vue-imgs-view@0.1.8",
+  "_where": "E:\\xjm\\zlcode\\zhiling",
+  "author": {
+    "name": "xiejm",
+    "email": "960492612@qq.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "v-finger-mk42": "^1.0.11"
+  },
+  "deprecated": false,
+  "description": "收集容器内的图片，实现点击放大查看并轮播",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-scroller": "^2.2.4",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "keywords": [
+    "vue",
+    "gallery",
+    "image",
+    "image-viwer"
+  ],
+  "license": "MIT",
+  "name": "vue-imgs-view",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && cross-env NODE_ENV=vueplugin webpack --progress --hide-modules",
+    "demo": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "plugin": "cross-env NODE_ENV=vueplugin webpack --progress --hide-modules"
+  },
+  "version": "0.1.8"
+}
