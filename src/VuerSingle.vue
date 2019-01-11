@@ -42,7 +42,9 @@ export default {
       this.style.top = (window.innerHeight - h) / 2 + 'px'
       this.parentNode.style.display = 'block'
       if (w < window.innerWidth && h < window.innerHeight) {
-        vm.isSmall = true
+        // vm.isSmall = true
+        vm.initialScale = window.innerWidth / h
+        this.scaleX = this.scaleY = vm.initialScale
       } else if (window.innerWidth / window.innerHeight < w / h) {
         vm.initialScale = window.innerWidth / w
         this.scaleX = this.scaleY = vm.initialScale
