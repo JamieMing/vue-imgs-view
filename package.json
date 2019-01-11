@@ -67,5 +67,5 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "plugin": "cross-env NODE_ENV=vueplugin webpack --progress --hide-modules"
   },
-  "version": "0.1.8"
+  "version": "0.1.9"
 }
