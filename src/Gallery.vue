@@ -1,7 +1,7 @@
 <template>
   <div ref="wrap">
     <slot >
-      富文本
+      富文本添加功能
     </slot>
   </div>
 </template>
